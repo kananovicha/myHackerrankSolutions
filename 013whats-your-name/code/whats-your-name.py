@@ -8,7 +8,9 @@
 #
 
 def print_full_name(first, last):
-    print('I exist')
+    subString1 = 'Hello '
+    outputString = subString1 + first
+    print(outputString)
 
 if __name__ == '__main__':
     first_name = input()
